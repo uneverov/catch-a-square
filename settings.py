@@ -1,0 +1,19 @@
+running = True
+WIDTH = 800
+HEIGHT = 650
+FPS = 60
+HEALTH = 734
+ENEMY = 60
+
+BLACK = (0, 0, 0)
+ORANGE = (255, 161, 119)
+GREEN = (169, 211, 158)
+BLUE = (135, 206, 250)
+RED = (178, 34, 34)
+INDIGO = (0, 191, 255)
+COLORS = [GREEN, ORANGE, BLUE, INDIGO, RED]
+COLOR = GREEN
+instances = {}
+STAGE = 0
+ROCKET = {}
+LASER = {}
