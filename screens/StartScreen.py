@@ -25,3 +25,14 @@ class StartScreen:
         self.version_text = self.font_small.render('version 1.0', True,
                                                    (150, 90, 100, 50))
         self.screen.blit(self.version_text, dest=(730, 630))
+        # Tips
+        self.font_small = pygame.font.Font('fonts/Gogh-ExtraBold.otf', 12)
+        self.laser_text = self.font_small.render('Left Mouse Button  -  Laser', True,
+                                                   (150, 90, 100, 50))
+        self.screen.blit(self.laser_text, dest=(52, 210))
+        self.font_small = pygame.font.Font('fonts/Gogh-ExtraBold.otf',
+                                           12)
+        self.boom_text = self.font_small.render('Right Mouse Button  -  BOOM',
+                                                   True,
+                                                   (150, 90, 100, 50))
+        self.screen.blit(self.boom_text, dest=(52, 230))

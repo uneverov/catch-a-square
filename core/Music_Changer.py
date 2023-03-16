@@ -3,9 +3,9 @@ import pygame
 
 def main_theme():
     pygame.mixer.fadeout(1)
-    pygame.mixer.Channel(1).set_volume(0.3)
+    pygame.mixer.Channel(1).set_volume(0.1)
     pygame.mixer.Channel(1).play(pygame.mixer.Sound(
-        'sounds/intro.mp3'), loops=-1)
+        'sounds/Enigma-Long-Version-Complete-Version.mp3'), loops=-1)
 
 
 def menu_button_sound():
